@@ -1,0 +1,13 @@
+Package: conjugateBayes
+Title: Performs conjugate Bayesian analyses.
+Version: 0.1
+Authors@R: person("Jarad", "Niemi", email = "niemi@iastate.edu", role = c("aut", "cre"))
+Description: Performs conjugate and default Bayesian analyses for Bernoulli,
+binomial, exponential, normal, and Poisson models. 
+The priors that can be used include a default, Jeffreys, and informative 
+conjugate priors. The results are intended to look like results from the stats
+package.
+Depends: R (>= 3.0)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
